@@ -1,0 +1,34 @@
+# NetShores .Beat Time Extension
+
+## Overview
+
+**NetShores .Beat Time** is a Chrome extension that converts standard timestamps on webpages to `.beat` time based on Swatch Internet Time (UTC+1). The extension includes customizable settings, allowing users to apply the conversion globally or only to specific websites like `agoraroad.com`.
+
+## Features
+- Converts timestamps on webpages to `.beat` time format.
+- Supports dynamic pages and updates automatically using a `MutationObserver`.
+- Option to only apply the conversion on `agoraroad.com`.
+- Automatically converts timestamps within the last hour to show `today @X beats ago`.
+
+## Installation
+
+### Option 1: Install from `.crx` File
+
+1. Download the latest `.crx` file:
+   - [Download `beat-time-extension.crx`](https://github.com/your-username/NetShores_Beat_Time/releases/download/latest/beat-time-extension.crx)
+
+2. Open Chrome and navigate to `chrome://extensions/`.
+
+3. Enable **Developer mode** by toggling the switch in the top-right corner.
+
+4. Drag and drop the `beat-time-extension.crx` file into the `chrome://extensions/` page.
+
+5. Confirm the installation by clicking **Add Extension**.
+
+### Option 2: Install as Unpacked Extension
+
+If the `.crx` file fails to install, follow these steps to install the extension manually:
+
+1. Download or clone the repository and use the folder called `NetShores_Beat_Time`:
+   ```bash
+   git clone https://github.com/your-username/NetShores_Beat_Time.git
