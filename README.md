@@ -66,7 +66,4 @@ Ensure Developer Mode is enabled in chrome://extensions/.
 Make sure you are running the latest version of Chrome.
 Feel free to open an issue if you encounter any problems or have suggestions!
 
-Screenshots
-Add some screenshots showing the extension in action on a webpage.
 
-This README should give users all the information they need to install, use, and contribute to your extension project. You can adjust the URLs and details as necessary to fit your GitHub repository. Let me know if you'd like to tweak or add anything!
