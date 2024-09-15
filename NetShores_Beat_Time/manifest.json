@@ -1,10 +1,10 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,  // Use manifest version 2 for Firefox compatibility
     "name": "NetShores .Beat",
     "version": "1.0",
     "description": "Converts timestamps on webpages to .beat time.",
     "permissions": ["activeTab", "storage"],
-    "action": {
+    "browser_action": {  // Change 'action' to 'browser_action' for Firefox
       "default_popup": "popup.html"
     },
     "content_scripts": [
@@ -12,6 +12,12 @@
         "matches": ["<all_urls>"],
         "js": ["content.js"]
       }
-    ]
+    ],
+    "applications": {  // Add Firefox-specific details
+      "gecko": {
+        "id": "webmaster@netshores.com",  // Unique ID for Firefox
+        "strict_min_version": "53.0"
+      }
+    }
   }
   
