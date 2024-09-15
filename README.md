@@ -1,6 +1,6 @@
-Beat Time Converter Extension
+NetShores .Beat Extension
 Overview
-Beat Time Converter is a Chrome extension that converts standard timestamps on webpages to .beat time based on Swatch Internet Time (UTC+1). The extension features customizable settings, allowing users to apply the conversion globally or only to specific websites like agoraroad.com.
+NetShores .Beat Extension is a Chrome extension that converts standard timestamps on webpages to .beat time based on Swatch Internet Time (UTC+1). The extension features customizable settings, allowing users to apply the conversion globally or only to specific websites like agoraroad.com.
 
 Features
 Converts timestamps on webpages to .beat time format.
